@@ -3,8 +3,8 @@ SOURCE_FILES := $(wildcard sources/*.md)
 OUTPUT_NAME=master
 OUTPUT_DIRECTORY=compiled
 
-clean:
-	rm $(OUTPUT_DIRECTORY)/*
+all : pdf beamer md html
+
 pdf:
 	pandoc $(SOURCE_FILES) -o $(OUTPUT_DIRECTORY)/$(OUTPUT_NAME).$@
 beamer:
@@ -14,6 +14,7 @@ md:
 html:
 	pandoc $(SOURCE_FILES) -t revealjs -s -o $(OUTPUT_DIRECTORY)/$(OUTPUT_NAME).$@
 
-all : pdf beamer md html
+clean:
+	rm $(OUTPUT_DIRECTORY)/*
 
 rebuild : clean all
