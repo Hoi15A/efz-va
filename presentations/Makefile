@@ -1,4 +1,4 @@
-SOURCE_FILES := $(wildcard sources/*.md)
+SOURCE_FILES := $(sort $(wildcard sources/*.md))
 
 OUTPUT_NAME=master
 OUTPUT_DIRECTORY=compiled
