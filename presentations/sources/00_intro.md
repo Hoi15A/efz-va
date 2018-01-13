@@ -1,6 +1,6 @@
 ---
 title: "Privatsphäre und Anonymität"
-subtitle: "Wie man im Internet seine Spuren verwischt"
+subtitle: "\"Wie man im Internet seine Spuren verwischt\""
 author: Severin Fürbringer
 date: 26.01.2018
 theme: "Antibes"
@@ -44,3 +44,8 @@ fonttheme: "default"
 ### Tor und weitere Anonymitätsnetzwerke
 - **Was:** Im Rahmen dieser Präsentation wird `Tor` kurz erklärt und auf `I2P` näher eingegangen.
 - **Wieso:** Aufgrund der begrenzten Seiten (im VA-Reglement) konnte ich `I2P` leider nicht behandeln.
+
+## Persönlicher Bezug
+### Wieso ist mir das Thema weiterhin wichtig?
+- Starker Bezug zur freien- und Open-Source-Software.
+- **Der Informationsfluss darf nicht einem Monopol unterstehen.**
