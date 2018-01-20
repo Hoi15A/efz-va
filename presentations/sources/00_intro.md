@@ -19,9 +19,9 @@ fonttheme: "default"
 **Die schriftliche Arbeit zusammengefasst:**
 
 ### Fragen
-1) Wie gut behandeln bekannte Internetdienste die Privatsphäre?
-2) Bis zu welchem Grad ist die Anonymität möglich?
-3) Sind Darknets besser für privates und anonymes surfen geeignet?
+0) Wie gut behandeln bekannte Internetdienste die Privatsphäre?
+1) Bis zu welchem Grad ist die Anonymität möglich?
+2) Sind Darknets besser für privates und anonymes surfen geeignet?
 
 
 ## Kurzüberblick
@@ -36,9 +36,9 @@ fonttheme: "default"
 
 ### Auswertung
 - In der Auswertungen wurden ausserdem verschiedene alternative Applikationen angeschaut:
-  1) GNU Ring und Tox-chat (Alternativen zu *WhatsApp*)
-  2) Searx und YaCy (Alternativen zu *Google*)
-  3) Tor (Alternative zum normalen *TCP/IP-Routing*)
+  0) GNU Ring und Tox-chat (Alternativen zu *WhatsApp*)
+  1) Searx und YaCy (Alternativen zu *Google*)
+  2) Tor (Alternative zum normalen *TCP/IP-Routing*)
 
 ## Highlight
 ### Tor und weitere Anonymitätsnetzwerke

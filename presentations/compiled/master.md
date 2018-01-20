@@ -15,9 +15,9 @@ Kurzüberblick
 
 ### Fragen
 
-1)  Wie gut behandeln bekannte Internetdienste die Privatsphäre?
-2)  Bis zu welchem Grad ist die Anonymität möglich?
-3)  Sind Darknets besser für privates und anonymes surfen geeignet?
+0)  Wie gut behandeln bekannte Internetdienste die Privatsphäre?
+1)  Bis zu welchem Grad ist die Anonymität möglich?
+2)  Sind Darknets besser für privates und anonymes surfen geeignet?
 
 Kurzüberblick
 -------------
@@ -38,9 +38,9 @@ Kurzüberblick
 -   In der Auswertungen wurden ausserdem verschiedene alternative
     Applikationen angeschaut:
 
-1)  GNU Ring und Tox-chat (Alternativen zu *WhatsApp*)
-2)  Searx und YaCy (Alternativen zu *Google*)
-3)  Tor (Alternative zum normalen *TCP/IP-Routing*)
+0)  GNU Ring und Tox-chat (Alternativen zu *WhatsApp*)
+1)  Searx und YaCy (Alternativen zu *Google*)
+2)  Tor (Alternative zum normalen *TCP/IP-Routing*)
 
 Highlight
 ---------
@@ -65,6 +65,19 @@ I2P
 
 The Invisible Internet Project
 ------------------------------
+
+Ziel
+----
+
+### Ziel dieser Präsentation
+
+0.  Funktionsweise von I2P
+1.  Vor- und Nachteile von I2P
+2.  Unterschied und Vergleich zum normalen Internet
+3.  Eignung und Use-Cases für I2P
+
+Anonymisierungsnetzwerk
+-----------------------
 
 ### Was ist ein Anonymisierungsnetzwerk
 
@@ -95,8 +108,8 @@ I2P
 
 ### Wie unterscheidet sich I2P zu Tor?
 
-1.  Garlic Routing anstatt Tor's Onion Routing
-2.  
+0.  Garlic Routing anstatt Tor's Onion Routing.
+1.  Das Netzwerk ist weitaus dezentralisierter.
 
 I2P Visualisiert
 ----------------
