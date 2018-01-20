@@ -34,3 +34,7 @@
 
 ## I2P Visualisiert
 ![i2p](https://geti2p.net/_static/images/net.png)
+
+## I2P Demo
+
+- [I2P Router Console](http://localhost:7657)
