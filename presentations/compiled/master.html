@@ -3,14 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <meta name="author" content="Severin Fürbringer">
-  <title>Privatsphäre und Anonymität</title>
+  <meta name="author" content="Austin Albrecht">
+  <title>Open Source Organisationen</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
   <link rel="stylesheet" href="reveal.js/css/reveal.css">
-  <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="reveal.js/css/theme/Antibes.css" id="theme">
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme">
   <!-- Printing and PDF exports -->
   <script>
     var link = document.createElement( 'link' );
@@ -27,115 +32,16 @@
   <div class="reveal">
     <div class="slides">
 
-<section>
-  <h1 class="title">Privatsphäre und Anonymität</h1>
-  <p class="subtitle">&quot;Wie man im Internet seine Spuren verwischt&quot;</p>
-  <p class="author">Severin Fürbringer</p>
+<section id="title-slide">
+  <h1 class="title">Open Source Organisationen</h1>
+  <p class="author">Austin Albrecht</p>
   <p class="date">26.01.2018</p>
 </section>
 
-<section><section id="einleitung" class="titleslide slide level1"><h1>Einleitung</h1></section><section id="lizenz" class="slide level2">
-<h2>Lizenz</h2>
-<ul>
-<li>Dokumente stehen unter CC-BY-SA 4.0: <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png" alt="Lizenz" /></li>
-<li>URL <code>github.com/fuerbringer/efz-va</code> für mehr Infos.</li>
-</ul>
-</section><section id="kurzüberblick" class="slide level2">
-<h2>Kurzüberblick</h2>
-<p><strong>Die schriftliche Arbeit zusammengefasst:</strong></p>
-<h3 id="fragen">Fragen</h3>
-<ol start="0" type="1">
-<li>Wie gut behandeln bekannte Internetdienste die Privatsphäre?</li>
-<li>Bis zu welchem Grad ist die Anonymität möglich?</li>
-<li>Sind Darknets besser für privates und anonymes surfen geeignet?</li>
-</ol>
-</section><section id="kurzüberblick-1" class="slide level2">
-<h2>Kurzüberblick</h2>
-<p><strong>Die schriftliche Arbeit zusammengefasst:</strong></p>
-<h3 id="umfrage">Umfrage</h3>
-<ol type="1">
-<li>Wie oft werden Anonymitätsnetzwerke eingesetzt?</li>
-</ol>
-</section><section id="kurzüberblick-2" class="slide level2">
-<h2>Kurzüberblick</h2>
-<p><strong>Die schriftliche Arbeit zusammengefasst:</strong></p>
-<h3 id="auswertung">Auswertung</h3>
-<ul>
-<li>In der Auswertungen wurden ausserdem verschiedene alternative Applikationen angeschaut:</li>
-</ul>
-<ol start="0" type="1">
-<li>GNU Ring und Tox-chat (Alternativen zu <em>WhatsApp</em>)</li>
-<li>Searx und YaCy (Alternativen zu <em>Google</em>)</li>
-<li>Tor (Alternative zum normalen <em>TCP/IP-Routing</em>)</li>
-</ol>
-</section><section id="highlight" class="slide level2">
-<h2>Highlight</h2>
-<h3 id="tor-und-weitere-anonymitätsnetzwerke">Tor und weitere Anonymitätsnetzwerke</h3>
-<ul>
-<li><strong>Was:</strong> Im Rahmen dieser Präsentation wird <code>Tor</code> kurz erklärt und auf <code>I2P</code> näher eingegangen.</li>
-<li><strong>Wieso:</strong> Aufgrund der begrenzten Seiten (im VA-Reglement) konnte ich <code>I2P</code> leider nicht behandeln.</li>
-</ul>
-</section><section id="persönlicher-bezug" class="slide level2">
-<h2>Persönlicher Bezug</h2>
-<h3 id="wieso-ist-mir-das-thema-weiterhin-wichtig">Wieso ist mir das Thema weiterhin wichtig?</h3>
-<ul>
-<li>Starker Bezug zur freien- und Open-Source-Software.</li>
-<li><strong>Der Informationsfluss darf nicht einem Monopol unterstehen.</strong></li>
-</ul>
+<section><section id="open-source-software-ist-software-die-nichts-kostet" class="title-slide slide level2"><h2>“Open Source software ist software die nichts kostet”</h2></section><section id="open-source-software-ist-software-die-nichts-kostet-1" class="slide level3">
+<h3>“Open Source software ist software die nichts kostet”</h3>
+<p>Open Source Software ist oft kostenlos. Dies ist aber nicht was OSS <strong><em>wirklich</em></strong> definiert</p>
 </section></section>
-<section><section id="i2p" class="titleslide slide level1"><h1>I2P</h1></section><section id="the-invisible-internet-project" class="slide level2">
-<h2>The Invisible Internet Project</h2>
-</section><section id="ziel" class="slide level2">
-<h2>Ziel</h2>
-<h3 id="ziel-dieser-präsentation">Ziel dieser Präsentation</h3>
-<ol start="0" type="1">
-<li>Funktionsweise von I2P</li>
-<li>Vor- und Nachteile von I2P</li>
-<li>Unterschied und Vergleich zum normalen Internet</li>
-<li>Eignung und Use-Cases für I2P</li>
-</ol>
-</section><section id="anonymisierungsnetzwerke" class="slide level2">
-<h2>Anonymisierungsnetzwerke</h2>
-<h3 id="was-ist-ein-anonymisierungsnetzwerk">Was ist ein Anonymisierungsnetzwerk</h3>
-<ul>
-<li>Informationenbeschaffung durch alternative Wege basierend auf der Internet Infrastruktur.</li>
-<li>Zugriffe auf Informationen erfolgen meist über mehrere Knoten (Nodes).</li>
-<li>Bei Tor wird ein Zugriff über 3 &quot;Schalen&quot; nacheinander entschlüsselt.</li>
-</ul>
-</section><section id="anonymisierungsnetzwerk-visualisiert-shritt-1" class="slide level2">
-<h2>Anonymisierungsnetzwerk Visualisiert: Shritt 1</h2>
-<figure>
-<img src="https://www.torproject.org/images/htw1.png" alt="tor1" /><figcaption>tor1</figcaption>
-</figure>
-</section><section id="anonymisierungsnetzwerk-visualisiert-shritt-2" class="slide level2">
-<h2>Anonymisierungsnetzwerk Visualisiert: Shritt 2</h2>
-<figure>
-<img src="https://www.torproject.org/images/htw2.png" alt="tor2" /><figcaption>tor2</figcaption>
-</figure>
-</section><section id="anonymisierungsnetzwerk-visualisiert-shritt-3" class="slide level2">
-<h2>Anonymisierungsnetzwerk Visualisiert: Shritt 3</h2>
-<figure>
-<img src="https://www.torproject.org/images/htw3.png" alt="tor2" /><figcaption>tor2</figcaption>
-</figure>
-</section><section id="i2p-1" class="slide level2">
-<h2>I2P</h2>
-<h3 id="wie-unterscheidet-sich-i2p-zu-tor">Wie unterscheidet sich I2P zu Tor?</h3>
-<ol start="0" type="1">
-<li>Garlic Routing anstatt Tor's Onion Routing.</li>
-<li>Das Netzwerk ist weitaus dezentralisierter.</li>
-</ol>
-</section><section id="i2p-visualisiert" class="slide level2">
-<h2>I2P Visualisiert</h2>
-<figure>
-<img src="https://geti2p.net/_static/images/net.png" alt="i2p" /><figcaption>i2p</figcaption>
-</figure>
-</section><section id="i2p-demo" class="slide level2">
-<h2>I2P Demo</h2>
-<ul>
-<li><a href="http://localhost:7657">I2P Router Console</a></li>
-</ul>
-</section></section>
-<section><section id="wrapup" class="titleslide slide level1"><h1>Wrapup</h1></section></section>
     </div>
   </div>
 
@@ -147,12 +53,14 @@
       // Full list of configuration options available at:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
 
         // Optional reveal.js plugins
         dependencies: [
           { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
           { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
-              { src: 'reveal.js/plugin/notes/notes.js', async: true }
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
         ]
       });
     </script>
