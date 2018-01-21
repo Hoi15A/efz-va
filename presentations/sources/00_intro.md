@@ -49,3 +49,4 @@ fonttheme: "default"
 ### Wieso ist mir das Thema weiterhin wichtig?
 - Starker Bezug zur freien- und Open-Source-Software.
 - **Der Informationsfluss darf nicht einem Monopol unterstehen.**
+- ![Free Software Foundation Europe](https://fsfe.org/graphics/logo_bw_transparent_small.png)

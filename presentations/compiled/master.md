@@ -59,12 +59,11 @@ Persönlicher Bezug
 
 -   Starker Bezug zur freien- und Open-Source-Software.
 -   **Der Informationsfluss darf nicht einem Monopol unterstehen.**
+-   ![Free Software Foundation
+    Europe](https://fsfe.org/graphics/logo_bw_transparent_small.png "fig:")
 
-I2P
-===
-
-The Invisible Internet Project
-------------------------------
+I2P - The Invisible Internet Project
+====================================
 
 Ziel
 ----
@@ -123,3 +122,29 @@ I2P Demo
 
 Wrapup
 ======
+
+Zusammenfassung I2P
+-------------------
+
+### (+) Pro
+
+1.  Hohe dezentralisierung führt zu Anonymität
+2.  Anonymer als Tor
+3.  Alle wichtigen Services bereits integriert (Mail, Torrent, IRC)
+
+### (-) Kontra
+
+1.  Konzipiert für langlebige Tunnel
+2.  Kaum kompatibel mit dem Surfaceweb (+1 für Tor)
+3.  Java ;\_;
+
+Zusammenfassung I2P
+-------------------
+
+-   Eignet sich für Communities, deren erste Priorität die Anonymität
+    ist.
+
+Rückblick VA
+------------
+
+### asd

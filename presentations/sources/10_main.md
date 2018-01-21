@@ -1,6 +1,4 @@
-# I2P
-
-## The Invisible Internet Project
+# I2P - The Invisible Internet Project
 
 ## Ziel
 
