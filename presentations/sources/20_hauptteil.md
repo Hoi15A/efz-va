@@ -1,4 +1,22 @@
 # Hauptteil
 
 ## Wie kann ich zu OSS beitragen?
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### 1. Projekt finden
+- Eigenes Projekt erstellen
+- Auf Webseiten wie [GitHub](https://github.com) oder [Up-for-grabs.net](http://up-for-grabs.net) nach Projekte die hilfe benötigen suchen
+- Verbesserungen bei Software die du schon nutzt beitragen
+
+## Wie kann ich zu OSS beitragen?
+### 2. Beitragen
+- Etwas zum beitragen wählen
+  - Software-patches
+  - Übersetzungen
+  - Designarbeit
+  - Bugreports erstellen
+- Und dann einfach via Pull-request oder anderem System die Änderungen vorschlagen
+
+## Wie kann ich zu OSS beitragen?
+### 3. Beispiele
+- Dokumentation in [TL;DR Pages](https://github.com/tldr-pages/tldr) erweitern: [PR](https://github.com/tldr-pages/tldr/pull/1893)
+- Quellcode erweitern: [VA PP RevealJS/Pandoc](https://github.com/fuerbringer/efz-va/pull/1)
+- Zu Bugreports beitragen: [Texteditor Plugin](https://github.com/HelloWorld017/atom-discord/issues/32)

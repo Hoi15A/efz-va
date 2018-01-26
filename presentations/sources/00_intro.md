@@ -1,6 +1,6 @@
 ---
 title: "Was ist Open Source Software?"
-subtitle: "\"Und wie kann ich dazu beitragen?\""
+subtitle: "Und wie kann man dazu beitragen?"
 author: Austin Albrecht
 date: 26.01.2018
 theme: "Antibes"

@@ -1,0 +1,13 @@
+- [ ] Titelfolie with PP title
+- [ ] Einleitung:
+- [ ] Explain OSS
+- [ ] Explain why I chose that
+- [ ] Hauptteil:
+- [ ] Explain how to contribute to oss
+- [ ] Demo in some way
+- [ ] Schluss:
+- [ ] Quick fazit on the VA
+- [ ] quick fazit on the PP
+- [ ] End
+---
+- [ ] Handout with ablauf + Table
